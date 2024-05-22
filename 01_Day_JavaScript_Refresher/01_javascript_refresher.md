@@ -3005,7 +3005,7 @@ const fullStack = [
 ]
 
 for (const [first, second, third, fourth] of fullStack) {
-  console.log(first, second, third, fourt)
+  console.log(first, second, third, fourth)
 }
 ```
 
@@ -3095,7 +3095,7 @@ const rectangle = {
 }
 
 let { width, height, perimeter = 200 } = rectangle
-console.log(width, height, perimeter) // 20, 10, undefined
+console.log(width, height, perimeter) // 20, 10, 200
 ```
 
 Renaming variable names
